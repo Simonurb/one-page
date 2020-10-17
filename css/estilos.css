@@ -182,17 +182,22 @@ height: 600px;
 width: 100%;
 background-size: 100% 100%;
 text-align:center;
-color:#000;
+color:#FFF;
 padding-top:3%;
 font-family:'Verdana';
+}
+#ubicacion img{
+width: 20%;
+display:block;
+padding-top:3%;
+margin:auto;
 }
 
 
 
 
-
 #contacto h2{
-color:#fff;
+color:#000;
 text-align: center;
 margin-top: 125px;
 font-family:'Verdana'
@@ -214,7 +219,7 @@ font-family:'Verdana';
 }
 .button{
 width: 500px;
-color:#000000;
+color:#000;
 float: none;
 font-family:'Verdana';
 }
@@ -226,4 +231,32 @@ font-family:'Verdana';
  position:relative;
 }
 
+
+#pie{
+height: 50px;
+width: 100%;
+color:#fff;
+line-height: 50px;
+text-align:center;
+}
+#izq{
+height: 100%;
+width: 49.2%;
+background-color:#000;
+color:#fff;
+text-align:left;
+padding-left: 10px;
+float: left;
+font-family:'Verdana';
+}
+#der{
+height: 100%;
+width: 49.1%;
+background-color:#000;
+color:#fff;
+text-align:right;
+padding-right: 10px;
+float: left;
+font-family:'Verdana';
+}
 
