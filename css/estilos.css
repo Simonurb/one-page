@@ -1,0 +1,229 @@
+html, body{
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+scroll-behavior: smooth;
+}
+#contenedor {
+width: 100%;
+height: 100%;
+margin: 0 0 0 0;
+}
+#nav{
+width: 100%;
+height: 50px;
+background-color:#ef8403;
+color:#fff;
+line-height: 50px;
+ position:fixed;
+ top:0
+}
+#nav ul{
+padding-left: 60%;
+list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+ display:flex;
+ justify-content:flex-end;
+}
+#nav ul li{
+display: block;
+ width: 120px;
+ float: left;
+ text-align:center;
+}
+#nav ul li a{
+display: block;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+ font-family:'Verdana';
+}
+#nav ul li a:hover{
+ background-color: #0e03ef;
+ color: #fff;
+}
+.active {
+ background-color: #050154;
+}
+
+
+
+
+
+#cabecera {
+height: 600px;
+width: 100%;
+background-size: 100% 100%;
+margin-bottom:-20px;
+}
+#cabecera img{
+
+margin-top: 150px;
+margin-left: 35%;
+}
+
+
+
+
+
+
+
+
+#jugadores{
+height: 600px;
+width: 100%;
+background-size: 100% 100%;
+text-align:center;
+color:#000;
+padding-top:3%;
+font-family:'Verdana';
+}
+#jugadores img{
+width: 25%;
+display:block;
+float:left;
+padding-top:3%;
+padding-left:6%;
+padding-right: 0%;
+}
+#jugadores p{
+width: 25%;
+text-align:center;
+padding-top:3%;
+padding-left:6%;
+padding-right: 0%;
+display:block;
+float:left;
+font-weight:bold;
+font-family:'Verdana';
+}
+
+
+
+
+
+
+
+
+
+
+
+#entrenadores{
+height: 600px;
+width: 100%;
+background-size: 100% 100%;
+text-align:center;
+color:#FFF;
+padding-top:3%;
+font-family:'Verdana';
+}
+#entrenadores img{
+width: 25%;
+display:block;
+float:left;
+padding-top:3%;
+padding-left:6%;
+padding-right: 0%;
+}
+#entrenadores p{
+width: 25%;
+text-align:center;
+padding-top:3%;
+padding-left:6%;
+padding-right: 0%;
+display:block;
+float:left;
+font-weight:bold;
+font-family:'Verdana';
+}
+
+
+
+
+
+
+
+
+
+#reglas {
+height: 1140px;
+width: 100%;
+background-size: 100% 100%;
+text-align:center;
+color:#000;
+padding-top:3%;
+font-family:'Verdana';
+}
+#reglas p{
+width: 88%;
+text-align:center;
+padding-top:3%;
+padding-left:6%;
+padding-right: 0%;
+display:block;
+float:left;
+font-weight:bold;
+font-family:'Verdana';
+}
+#reglas ul{
+	width: 88%;
+text-align:center;
+padding-top:3%;
+padding-left:6%;
+padding-right: 0%;
+display:block;
+float:left;
+font-weight:bold;
+font-family:'Verdana';
+}
+
+#ubicacion {
+height: 600px;
+width: 100%;
+background-size: 100% 100%;
+text-align:center;
+color:#000;
+padding-top:3%;
+font-family:'Verdana';
+}
+
+
+
+
+
+#contacto h2{
+color:#fff;
+text-align: center;
+margin-top: 125px;
+font-family:'Verdana'
+}
+.input{
+width: 500px;
+height: 30px;
+margin-bottom: 20px;
+color:#000000;
+float: right;
+margin-right: 20px;
+font-family:'Verdana'
+}
+.textarea{
+width: 500px;
+color:#000000;
+float: none;
+font-family:'Verdana';
+}
+.button{
+width: 500px;
+color:#000000;
+float: none;
+font-family:'Verdana';
+}
+#contacto{
+ width:100%;
+ height:600px;
+ background-color:#ef8403;
+ border:1px solid black;
+ position:relative;
+}
+
+
